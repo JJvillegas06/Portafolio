@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+   
+}
+
+main{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    padding: 50px;
+}
+
+
+.nav-bar{
+    display: flex;
+    width: 1440px;
+    height:70px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.nav-bar div{
+    display: flex;
+    gap: 20px;
+}
+
+.introduccion{
+    height: 300px;
+    width: 1000px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: aqua;
+    font-size: 30px;
+    
+}
+.introduccion h1{
+    margin: 0;
+}
+
+.social-media{
+    list-style: none;
+    display: flex;
+    
+    gap: 20px;
+    font-size: 20px;
+}
+.section{
+    background-color: blue ;
+    margin: 0 -50px;
+    
+}
+.about-me{
+    height: 300px;
+    width: 1000px;
+    margin-left: 50px;
+    
+    
+    background-color: blueviolet;
+
+}
