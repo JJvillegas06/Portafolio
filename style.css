@@ -13,12 +13,12 @@ main{
     margin: 0 auto;
     background-color: antiquewhite;
     padding: 50px;
+    
 }
 
 
 .nav-bar{
     display: flex;
-    
     width: 1440px;
     height:70px;
     margin: 0 auto;
@@ -109,16 +109,57 @@ main{
 .skills_hobbies{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .skills{
     background-color: aquamarine;
     width: 49%;
+}
+.section_lenguages{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    padding: 0 0px;
     
 }
+.lenguages{
+    width: 200px;
+    height: 200px;
+    background-color:white;
+}
+
+.lenguages img{
+    margin-top: 60px;
+}
+
+.lenguages h5{
+    margin: 0 18px;
+}
+
 .hobbies{
     background-color: aquamarine;
     width: 49%;
     
 }
+
+.hobbies_img{
+    width: 200px;
+    height: 200px;
+    background-color:white;
+}
+
+.hobbies_img img{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.hobbies_img h5{
+    margin: 0 18px;
+}
+
+
+
+
 
