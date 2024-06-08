@@ -1,30 +1,38 @@
-let imagenes = [
-                "img/calculadora.png",
-                "img/sharkweb.jpg"
-                ];
+let btnLeft = document.querySelector("#slider-left")
+let btnRight = document.querySelector("#slider-right")
+let slider = document.querySelector("#slider")
+let counter = 0;
+let img = document.querySelectorAll("#calc")
+let widthimg = 100 / img.length
 
-document.imagen.src = imagenes [0];
+console.log(img)
 
-let sliderDerecha = document.getElementById("slider-right");
-let sliderIzquierda = document.getElementById("slider-left");
-let contador = 0;
-
-function moverDerecha (){
-    contador++;
-    if(contador>imagenes.length - 1){
-        contador = 0;
+function moveToLeft (){
+    counter = counter + 1
+    img.length = [counter]
+    if(counter> img.length -1 ){
+        counter = 0
     }
-    document.imagen.src = imagenes [contador];
+    slider.style.transform = "translate(-33.33%)"
+    console.log(img)
+    console.log(counter)
 }
 
+btnRight.addEventListener('click',moveToLeft)
 
-sliderDerecha.addEventListener('click',moverDerecha);
-
-function moverIzquierda (){
-    contador --;
-    if(contador < 0){
-        contador = imagenes.length -1
+function moveToRigth(){
+    counter = counter -1;
+    img.length = [counter]
+    if(counter < img.length - 3){
+         counter = 2
     }
-    document.imagen.src = imagenes [contador];
+    slider.style.transform = "translate(+33.33%)"
+    console.log(img)
+    console.log(counter)
 }
-sliderIzquierda.addEventListener('click', moverIzquierda);
+
+btnLeft.addEventListener('click',moveToRigth)
+
+function showScreen (){
+
+}
