@@ -2,6 +2,8 @@ body{
     padding: 0;
     margin: 0;
     width: 100%;
+    background-image: linear-gradient(to right top, #080a26, #0c1234, #121743, #1b1c51, #252060, #23205e, #22205d, #20205b, #151c48, #0e1634, #0b0f22, #01030d);
+    color: #E4EAF2;
 }
 header{
     display: flex;
@@ -10,7 +12,7 @@ header{
 main{
     width: 1440px;
     margin: 0 auto;
-    background-color: antiquewhite;
+    background-color:;
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -41,7 +43,7 @@ main{
     width: 1000px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: aqua;
+    background-color:;
     font-size: 30px;
     
 }
@@ -56,12 +58,16 @@ main{
     font-size: 20px;
 }
 .section{
-    background-color: #E4EAF2;
+    background-color: #080A26;
+    border-radius: 10px;
     margin: 0 -50px;
     
 }
 .section h2{
     font-size: 35px;
+}
+.about-me h2{
+    margin: 5px;
 }
 .about-me{
     display: flex;
@@ -71,33 +77,39 @@ main{
     height: 300px;
     width: 1000px;
     margin-left: 50px;
-    background-color:violet ;
+    background-color:;
     font-size: 20px;
 }
 
 .studies{
     text-align: center;
-    margin: 40px -50px;
-    background-color: cadetblue;
-    padding: 60px 0;
+    margin: 0px -50px;
+    background-color: ;
+    padding: 30px 0;
     
 }
 .studies h3{
     font-size: 35px;
+    margin-bottom: 50px;
 }
 
 .section-studies{
     list-style: none;
     display: flex;
     padding: 0 50px;
-    justify-content:space-between ;
+    justify-content:space-between;
     
 }
 .school{
-    width:400px ;
-    height: 400px;
+    width:350px;
+    height: 350px;
     text-align: start;
+    background-color:;
     
+}
+.school img{
+    width: 350px;
+    height: 250px;
 }
 .school h4{
     font-size: 35px;
@@ -113,27 +125,27 @@ main{
 }
 .title{
     width: 50%;
-    background-color: aqua;
+    background-color:;
     text-align: center;
     font-size: 35px;
 }
 .skills_hobbies{
     display: flex;
     justify-content: space-between;
-    
+    background-color:;
+    margin: 0 -50px;
     
 }
 
 .skills{
-    background-color: aquamarine;
-    width: 49%;
+    width: 50%;
 }
 .section_lenguages{
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap:20px;
-    padding: 0 0px;
+    justify-content: space-between;
+    padding: 0 50px;
+    background-color: ;
     
 }
 
@@ -152,15 +164,15 @@ main{
 }
 
 .hobbies{
-    background-color: aquamarine;
-    width: 49%;
+    
+    width: 50%;
     
 }
 
 .hobbies_img{
     width: 200px;
     height: 200px;
-    background-color:white;
+    background-color:;
 }
 
 .hobbies_img img{
@@ -188,10 +200,10 @@ main{
 
 #slider{
     background-color: aquamarine;
-    width:750px;
+    width:250px;
     height: 300px;
     display: flex;
-    overflow-y: hidden;
+    overflow:hidden ;
 }
 
 #slider img{
@@ -252,7 +264,7 @@ form input{
 }
 
 footer{
-    background-color: aqua;
+    background-color: #080926;
     margin-top: 40px;
     height: 100px;
     font-size:20px;

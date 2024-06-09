@@ -4,29 +4,37 @@ let slider = document.querySelector("#slider")
 let counter = 0;
 let img = document.querySelectorAll("#calc")
 let widthimg = 100 / img.length
+let Mostrar = 0
 
-console.log(img)
 
 function moveToLeft (){
-    counter = counter + 1
-    img.length = [counter]
+    
+    counter++;
+    img = img[counter]
+
     if(counter> img.length -1 ){
         counter = 0
+    }else{
+        slider.style.transform = "translate(-100%)"
+
     }
-    slider.style.transform = "translate(-33.33%)"
-    console.log(img)
     console.log(counter)
+    console.log(img)
+    
+    
 }
 
-btnRight.addEventListener('click',moveToLeft)
+btnRight.addEventListener('click',moveToLeft,)
 
 function moveToRigth(){
     counter = counter -1;
     img.length = [counter]
     if(counter < img.length - 3){
          counter = 2
+    }else{
+        slider.style.transform = "translate(+100%)"
     }
-    slider.style.transform = "translate(+33.33%)"
+    
     console.log(img)
     console.log(counter)
 }
@@ -34,5 +42,6 @@ function moveToRigth(){
 btnLeft.addEventListener('click',moveToRigth)
 
 function showScreen (){
-
+    counter = [img]
+    console.log(counter)
 }
