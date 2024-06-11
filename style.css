@@ -105,11 +105,13 @@ main{
     height: 350px;
     text-align: start;
     background-color:;
+    border-radius: ;
     
 }
 .school img{
     width: 350px;
     height: 250px;
+    border-radius: 10px;
 }
 .school h4{
     font-size: 35px;
@@ -121,24 +123,27 @@ main{
 }
 .title_skills{
     display: flex;
-    
+   
 }
 .title{
     width: 50%;
     background-color:;
     text-align: center;
     font-size: 35px;
+    
 }
 .skills_hobbies{
     display: flex;
     justify-content: space-between;
     background-color:;
     margin: 0 -50px;
+    background-color:;
     
 }
 
 .skills{
     width: 50%;
+    background-color: ;
 }
 .section_lenguages{
     list-style: none;
@@ -152,7 +157,8 @@ main{
 .lenguages{
     width: 200px;
     height: 200px;
-    background-color:white;
+    background-color:#080A26;
+    border-radius: 10px;
 }
 
 .lenguages img{
@@ -172,7 +178,8 @@ main{
 .hobbies_img{
     width: 200px;
     height: 200px;
-    background-color:;
+    background-color:#080A26;
+    border-radius: 10px;
 }
 
 .hobbies_img img{
@@ -184,11 +191,12 @@ main{
     margin: 0 18px;
 }
 .section_projects{
-    background-color: azure;
+    background-color: #080A26;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    margin: 0 -50px;
+    border-radius: 10px;
     
 }   
 
@@ -200,14 +208,14 @@ main{
 
 #slider{
     background-color: aquamarine;
-    width:250px;
+    width:400px;
     height: 300px;
     display: flex;
     overflow:hidden ;
 }
 
 #slider img{
-    width: 250px;
+    width: 400px;
     height: 100%;
 }
 
