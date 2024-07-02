@@ -14,10 +14,6 @@ main{
     margin: 0 auto;
     background-color:;
     padding: 50px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
 }
 
 
@@ -61,6 +57,8 @@ main{
     background-color: #080A26;
     border-radius: 10px;
     margin: 0 -50px;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 .section h2{
@@ -79,6 +77,7 @@ main{
     margin-left: 50px;
     background-color:;
     font-size: 20px;
+    flex-wrap: wrap;
 }
 
 .studies{
@@ -207,11 +206,12 @@ main{
 }
 
 #slider{
-    background-color: aquamarine;
+    
     width:400px;
     height: 300px;
     display: flex;
-    overflow:hidden ;
+    overflow:hidden;
+    cursor: pointer;
 }
 
 #slider img{
@@ -246,7 +246,6 @@ main{
 .contact-section{
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
     align-items: start;
     width: 50%;
     margin-left: 20px;
@@ -262,13 +261,21 @@ main{
 }
 
 form input{
-   padding: 15px;
+   padding: 15px 10px;
    font-size: 15px;
+   border: 1px solid;
+   border-radius: 5px;
 }
-#mensaje{
+#mensaje {
     height: 80px;
-    padding: 0px;
-    text-align: start;
+    
+}
+
+#submit{
+    width: 50%;
+    align-self: center;
+    border: 1px solid ;
+    border-radius: 10px;
 }
 
 footer{
@@ -277,5 +284,13 @@ footer{
     height: 100px;
     font-size:20px;
     text-align: center;
+    height: 150px
+   
+}
+footer p{
+    padding: 50px;
+    
+    
+
 }
 
